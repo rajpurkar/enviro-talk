@@ -26,28 +26,48 @@
 			.navbar {
 				padding: 5px 0px;
 				margin-bottom: 0px;
-				background: none;
+				background: #eee;
 				border: none;
 			}
 
 			#header-section {
-                padding-top: 120px;
-                padding-bottom: 180px;
-                position: relative;
-                overflow: hidden;
+				padding-top: 120px;
+				padding-bottom: 180px;
+				position: relative;
+				overflow: hidden;
+				color: white;
+				background: url('images/bg.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			section {
+				padding: 60px 0px;
+				min-height: 270px;
+				border-top: 1px solid #ddd;
+			}
+
+			#prompt-section{
+                background: black;
                 color: white;
-                background: url('images/bg.jpg');
-                background-size: cover;
-                background-repeat: no-repeat;
+                border-top: none;
+                font-size: 15px;
+
+			}
+
+			#prompt-section > p{
+               font-size: 30px;
             }
+
+
         </style>
     </head>
     <body>
-       <section id = "header-section">
+        <section id = "header-section">
             <div class ="container">
                 <div class= "row">
-                    <div class = "col-md-6">
-                        <h1> Computers and the environment</h1>
+                    <div class = "col-md-4">
+                        <h1> <strong>Computers</strong> and the Environment</h1>
                         <p>
                             Information Overload, and its impact on us.
                         </p>
@@ -56,6 +76,48 @@
                 </div>
             </div>
         </section>
-        </div>
+        <section id="prompt-section" class = "test">
+            <div class = "container">
+                <div class = "row" >
+                    <div class="col-md-6 col-md-offset-3">
+                        <p>
+                            Given software’s abstract nature, those of us who
+                            build software often think about computing as an environmentally friendly
+                            undertaking. As it happens, however, the manufacture of computing is often
+                            anything but “green.” Silicon Valley is home to some of the most polluted
+                            Superfund sites in the country, and the rapid obsolescence of hardware ensures that
+                            a steady stream of outdated machines piles up at local landfills. What are the
+                            environmental issues that arise in computing manufacture and what steps are being
+                            taken to reduce similar problems in other countries?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="abstract-section" class = "test">
+            <div class = "container">
+                <div class = "row" >
+                    <div class="col-md-7">
+                         <h1> Abstract </h1>
+                        <p>
+                            With the internet approaching the status of a fundamental human right, it is expected to amass a user base of the entirety of the human population. With preparations to provide such access come the challenges of handling the growing population of internet users. These challenges include the growing demand for storing user data, and serving users data, problems heightened by the growing online footprint of existing users, and increased demand for cloud computing solutions. In our project, we explore the ramifications of these upcoming digital challenges in our physical environment, examine the costs of handling such challenges with traditional approaches, and propose feasible solutions designed to gracefully tackle this problem.
+
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                                        <img src="images/im2.jpg" width="100%">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-default navbar-static-bottom" role="navigation">
+            <div class="container">
+                <p class="navbar-text">
+                    Pranav Rajpurkar, Haley Kong, Kyle Lee 2014
+                </p>
+            </div>
+        </nav>
     </body>
 </html>
