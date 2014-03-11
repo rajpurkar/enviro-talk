@@ -23,6 +23,17 @@
 				font-family: 'Open Sans';
 			}
 
+			#intro {
+				font-size: 16px;
+			}
+			#treegl {
+				font-size: 300px;
+			}
+
+			#watergl {
+				font-size: 200px;
+				text-align: center;
+			}
 			.navbar {
 				padding: 5px 0px;
 				margin-bottom: 0px;
@@ -41,24 +52,56 @@
 				background-repeat: no-repeat;
 			}
 
-			section {
+			#ms-highlight {
+				padding-top: 180px;
+				padding-bottom: 180px;
+				position: relative;
+				overflow: hidden;
+				color: white;
+				background: url('images/mdc2.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			#ds-highlight {
+				padding-top: 100px;
+				padding-bottom: 100px;
+				position: relative;
+				overflow: hidden;
+				color: white;
+				background: url('images/dc.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			#gs-highlight {
+				margin-top: 0px;
+				padding-top: 120px;
+				padding-bottom: 180px;
+				position: relative;
+				overflow: hidden;
+				color: white;
+				background: url('images/zuc.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			.pad {
 				padding: 60px 0px;
 				min-height: 270px;
 				border-top: 1px solid #ddd;
 			}
 
-			#prompt-section{
-                background: black;
-                color: white;
-                border-top: none;
-                font-size: 15px;
-
+			#prompt-section {
+				background: black;
+				color: white;
+				border-top: none;
+				font-size: 15px;
 			}
 
-			#prompt-section > p{
-               font-size: 30px;
-            }
-
+			#prompt-section > p {
+				font-size: 30px;
+			}
 
         </style>
     </head>
@@ -67,7 +110,7 @@
             <div class ="container">
                 <div class= "row">
                     <div class = "col-md-4">
-                        <h1> <strong>Computers</strong> and the Environment</h1>
+                        <h1><strong>Computers</strong> and the Environment</h1>
                         <p>
                             Information Overload, and its impact on us.
                         </p>
@@ -76,39 +119,170 @@
                 </div>
             </div>
         </section>
-        <section id="prompt-section" class = "test">
+        <section id="abstract-section" class = "test pad">
             <div class = "container">
                 <div class = "row" >
-                    <div class="col-md-6 col-md-offset-3">
-                        <p>
-                            Given software’s abstract nature, those of us who
-                            build software often think about computing as an environmentally friendly
-                            undertaking. As it happens, however, the manufacture of computing is often
-                            anything but “green.” Silicon Valley is home to some of the most polluted
-                            Superfund sites in the country, and the rapid obsolescence of hardware ensures that
-                            a steady stream of outdated machines piles up at local landfills. What are the
-                            environmental issues that arise in computing manufacture and what steps are being
-                            taken to reduce similar problems in other countries?
-                        </p>
+                    <div class="col-md-4">
+
+                        <span class="glyphicon glyphicon-tree-deciduous" id="treegl"></span>
+
                     </div>
-                </div>
-            </div>
-        </section>
-        <section id="abstract-section" class = "test">
-            <div class = "container">
-                <div class = "row" >
-                    <div class="col-md-7">
-                         <h1> Abstract </h1>
+
+                    <div class="col-md-8" id = "intro">
+                        <h1> Introduction </h1>
                         <p>
                             With the internet approaching the status of a fundamental human right, it is expected to amass a user base of the entirety of the human population. With preparations to provide such access come the challenges of handling the growing population of internet users. These challenges include the growing demand for storing user data, and serving users data, problems heightened by the growing online footprint of existing users, and increased demand for cloud computing solutions. In our project, we explore the ramifications of these upcoming digital challenges in our physical environment, examine the costs of handling such challenges with traditional approaches, and propose feasible solutions designed to gracefully tackle this problem.
 
                         </p>
                     </div>
-                    <div class="col-md-5">
-                                        <img src="images/im2.jpg" width="100%">
 
+                </div>
+            </div>
+        </section>
+        <section id = "goal-section">
+            <div class = "row" id="gs-highlight">
+                <div class = "container">
+
+                    <div class="col-md-5 col-md-offset-6">
+                        <h2>In his talk at Stanford, Mark Zuckerberg described his goal of connecting 7
+                        billion people. </h2>
+                        <p>
+                            There are an estimated 1 billion people on the internet today. On average, an
+                            american teenager spends three hours each day on the internet. Although in other
+                            countries, this number is smaller, the internet population is growing,
+                            especially rapidly in developing countries.
+                        </p>
+                        <p>
+                            Access to the internet is starting to be considered a fundamental human right. Several ongoing initiatives, such as the one by Mark Zuckerberg, aim to provide everyone access to the internet.
+                            With such initiatives, the number of users online will see an explosive growth.
+                        </p>
                     </div>
 
+                </div>
+            </div>
+            <div class = "row pad">
+                <div class = "container">
+                    <div class="col-md-5">
+                        <h1> From the goal of connecting the world to the <strong>impact</strong> on the environment </h1>
+                        <br/>
+                        <span class="glyphicon glyphicon-tint" id="watergl"></span>
+
+                    </div>
+                    <div class="col-md-7">
+                        <h3> What does this increase in user base mean in terms of challenges? </h3>
+
+                        <p>
+                            It means that in 20 years, we can expect to have more than thrice the current user base on the internet.
+                            With the increase in importance of cloud computing, we can expect each user
+                            to be storing more data online, instead of locally.
+                        </p>
+                        <h3> What is the problem we face? </h3>
+                        <p>
+                            The problem we face is: How do we serve the exponentially increasing internet user population?
+
+                            We simply do not have the infrastructure to be able to handle such a load.
+                        </p>
+                        <p>
+                            <h3> Won’t we always be solving this problem? </h3>
+                        <p>
+                            Vint Cerf, often termed the father of the internet, in his vision of the internet, says “The world’s population will probably have peaked at nine billion by 2050.” Hence once we have solved it, we are done for some time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="deficiency-section" class = "">
+            <div class = "row" id = "ds-highlight" >
+                <div class = "container">
+                    <div class="col-md-6">
+                        <h1> Traditional Data Centers, and their Deficiencies </h1>
+
+                        <p>
+                            The current approach to data storage involves the traditional site-constructed data centers.  Whether is be a single room or a floor of a whole building, the data centers are home to many servers that process data.
+
+                        </p>
+                        The standard building components include:
+                        <ul>
+                            <li>
+                                <strong>Payload/Data Hall areas</strong>: “provides the underlying spatial area to house data processing and communications equipment”
+                            </li>
+                            <li>
+                                <strong>Infrastructure areas</strong>: “provides the required underlying power and cooling capacity to support the payload, data halls, and facility as a whole”
+                            </li>
+                            <li>
+                                <strong>Ancillary areas:</strong> “represent the overhead required by practice, business need, or code to be able to occupy and operate the facility”
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe id="ytplayer" type="text/html" width="640" height="360" src="http://www.youtube.com/embed/avP5d16wEp0?autoplay=0&controls=0&rel=0&showinfo=0" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class = "row pad" >
+                <div class = "container">
+                    <h1>From a Critical Point of View</h1>
+                    <h3>Electricity</h3>
+                    <p>
+                        Since data must be available to users at all hours of the day, the data centers are run at all times.  The New York Times found that data centers can waste 90% or more of the electricity that they get from the grid and that data centers worldwide use approximately 30 billions watts of electricity, equivalent to the output of 30 nuclear power plants.   The EPA estimates that data centers account for about 1.5% of the total US electricity consumption and around .5% of the greenhouse gas emissions.
+                    </p>
+                    <h3>Excessive Back-up Measures</h3>
+                    <p>
+                        With their reputations on the line, businesses that require servers cannot afford to have their systems down for even a second. As a precautionary measure for a power failure, many data centers have generators, which emit diesel exhaust and violates many clear air regulations. Furthermore, large data centers sometimes contain large flywheels and/or lead-acid batteries to power the computers in the case of a grid failure.
+                    </p>
+
+                    <h3>Temperature Regulation</h3>
+                    <p>
+                        The temperature in the data centers must remain between 18-27 degrees Celsius (64-81 degrees Celsius) and a maximum humidity of 60%.  The electrical power used by the equipment heats the air, and unless there is a functional cooling system, the hot ambient temperature can cause an electronic equipment malfunction.  If there is too much humidity, then the water can start to condense on internal components; on the other hand, if there is too little humidity, then there can be static electricity discharge problems that can also damage components.  With the equipment having such a high sensitivity to their location and temperature, the data centers must spend more energy and electricity on temperature regulation and cooling systems.
+                    </p>
+
+                    <p>
+                        Typically custom-designed for the particular company, they tend to have multiple designs which, while allowing for innovative approaches to cooling and power systems, can also make data center environmental regulations and standards difficult to define and regulate.
+
+                    </p>
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <section id="modular-section" class = "test">
+            <div class = "row" id = "ms-highlight" >
+                <div class = "container">
+
+                </div>
+            </div>
+            <div class = "container">
+                <div class = "row pad">
+                    <div class="col-md-6 col-md-offset-2">
+                        <h1>Modular Data Centers - The Road Ahead?</h1>
+
+                        <p>
+                            In contrast to the traditional data centers, the modular data centers are pre-engineered and scalable; they consist of standardized components, which makes them cheaper, easier to build, and better designed to meet specifications and regulations. Though they are pre-fabricated, they are much more flexible than traditional data centers in that they can be shipped or retrofitted anywhere.
+                        </p>
+
+
+                    </div>
+                    <div class="col-md-4">
+                        <span class="glyphicon glyphicon-road" id="watergl"></span>
+                    </div>
+                </div>
+                <div class = "row pad">
+                    <div class="col-md-6">
+                    <h2>Water-Based Data Center</h2>
+                        <p>
+                            In addition to the cost of the property being significantly less out at sea than on land, the “water-based data center” is also a more environmentally-friendly solution than the traditional data center.  The water-based data centers are located 5-7 miles offshore in water 50-70 meters deep and consist of a computer data center, a wave-based electrical generator, and sea-water cooling units.  The ocean itself is a temperature regulator, so the data center can spend less energy in regulating its internal temperature and humidity.  Also, being situated on floating platforms and support system allows this type of data center to have easy access to ocean water for cooling and wave-generated energy.
+                        </p>
+                    </div>
+                   <div class="col-md-6">
+
+                        <h2>Blade Server</h2>
+                        <p>
+
+                            A server with component removed to minimize the physical space and energy it uses, the blade server is an improvement from the standard servers today.  They use half of the space (can fit 128 blade servers in a space that can hold only 42 standard servers) and have a self-contained power, cooling, management, and connections systems.  They have the benefit of less rack space and simplified cabling, and with its shared cooling and power systems, it means it does not generate as much heat as traditional servers.
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
