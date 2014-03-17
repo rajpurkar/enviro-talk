@@ -31,7 +31,7 @@
 			}
 
 			#watergl {
-				font-size: 200px;
+				font-size: 100px;
 				text-align: center;
 			}
 			.navbar {
@@ -103,6 +103,16 @@
 				font-size: 30px;
 			}
 
+            #stats-section{
+margin-top: 0px;
+border-top: none;
+                position: relative;
+                overflow: hidden;
+                color: white;
+                background: #111;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
         </style>
     </head>
     <body>
@@ -157,39 +167,91 @@
                             With such initiatives, the number of users online will see an explosive growth.
                         </p>
                     </div>
-
                 </div>
             </div>
-            <div class = "row pad">
-                <div class = "container">
-                    <div class="col-md-5">
-                        <h1> From the goal of connecting the world to the <strong>impact</strong> on the environment </h1>
-                        <br/>
-                        <span class="glyphicon glyphicon-tint" id="watergl"></span>
-
+        </section>
+        <section class = "pad" id = "stats-section">
+            <div class = "container">
+                <div class = "row">
+                    <div class="col-md-6">
+                                            <iframe id="ytplayer" type="text/html" width="100%" height="300" src="http://www.youtube.com/embed/ij5yC-moPCM?autoplay=0&controls=0&rel=0&showinfo=0" frameborder="0"></iframe>
                     </div>
-                    <div class="col-md-7">
-                        <h3> What are the repercussions of connecting the world? </h3>
-
-                        <p>
-                            It has been predicted that in 20 years, we can expect to have more than thrice the current user base on the internet.
-                            With the increase in importance of cloud computing, we can expect each user
-                            to be storing more data online, instead of locally.
-                        </p>
-                        <h3> What is the problem we face? </h3>
-                        <p>
-                            The problem we face is: How do we serve the exponentially increasing internet user population?
-
-                            We simply do not have the infrastructure to be able to handle such a load.
-                        </p>
-                        <p>
-                            <h3> Won’t we always be solving this problem? </h3>
-                        <p>
-                            Vint Cerf, often termed the father of the internet, in his vision of the internet, says “The world’s population will probably have peaked at nine billion by 2050.” Hence once we have solved it, we are done for some time.
-                        </p>
+                     <div class="col-md-6">
+                        <img src="images/internetusage.png" width="100%">
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class="col-md-6">
+                          <h2>Interesting Internet Statistics 2012</h2>
+                          <p>Source: Youtube</p>
+                    </div>
+                     <div class="col-md-6">
+                           <h2>Internet users in 2012 as a percentage of a country's population</h2>
+                           <p>Source: International Telecommunications Union</p>
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="toenviro">
+        <div class = "row pad">
+            <div class = "container">
+                <div class="col-md-5">
+                    <h1> From the goal of connecting the world to the <strong>impact</strong> on the environment </h1>
+                    <br/>
+                    <span class="glyphicon glyphicon-tint" id="watergl"></span>
+                </div>
+                <div class="col-md-7">
+                    <h3> What are the repercussions of connecting the world? </h3>
+
+                    <p>
+                        It has been predicted that in 20 years, we can expect to have more than thrice the current user base on the internet.
+                        With the increase in importance of cloud computing, we can expect each user
+                        to be storing more data online, instead of locally.
+                    </p>
+                    <h3> What is the problem we face? </h3>
+                    <p>
+                        The problem we face is: How do we serve the exponentially increasing internet user population?
+
+                        We simply do not have the infrastructure to be able to handle such a load.
+                    </p>
+                    <p>
+                        <h3> Won’t we always be solving this problem? </h3>
+                    <p>
+                        Vint Cerf, often termed the father of the internet, in his vision of the internet, says “The world’s population will probably have peaked at nine billion by 2050.” Hence once we have solved it, we are done for some time.
+                    </p>
+                        <h3>
+How big is this impact?
+
+                        </h3>
+                        <p>
+Emerson Network Power wrote a report and infographic called “The State of the Data Center 2011”.  With companies keeping the information about their data centers a secret, the following statistics are very low estimates.
+<ul>
+    <li>
+        509,147 data centers worldwide
+    </li>
+    <li>
+        285.8 million square feet of space
+
+    </li>
+    <li>
+        Equivalent to 5,955 football fields
+    </li>
+    <li>
+        1.2 trillion gigabytes of data created
+
+    </li>
+    <li>
+        Enough data for every person to own 10 iPods
+
+    </li>
+    <li>
+        Every hour, internet users consume enough information to fill 7 million DVDs which, when placed side by side, can scale Mt. Everest and back 95 times
+    </li>
+</ul>
+                        </p>
+                </div>
+            </div>
+        </div>
         </section>
         <section id="deficiency-section" class = "">
             <div class = "row" id = "ds-highlight" >
@@ -222,17 +284,20 @@
             </div>
             <div class = "row pad" >
                 <div class = "container">
+                    <div class = "col-md-10">
                     <h1>From a Critical Point of View</h1>
-                    <h3>Electricity</h3>
+                    <h2>Electricity</h2>
                     <p>
                         Since data must be available to users at all hours of the day, the data centers are run at all times.  The New York Times found that data centers can waste 90% or more of the electricity that they get from the grid and that data centers worldwide use approximately 30 billions watts of electricity, equivalent to the output of 30 nuclear power plants.   The EPA estimates that data centers account for about 1.5% of the total US electricity consumption and around .5% of the greenhouse gas emissions.
+                        Peter Gross, a data center designer, stated that “a single data center can take more power than a medium-size town.”  An analysis by McKinsey & Company discovered that data centers only used 6-12% of their electricity powering their servers to perform computations.  The rest of the electricity was used to keep servers idling so that they could be used if there was a sudden surge in traffic and activity.
                     </p>
-                    <h3>Excessive Back-up Measures</h3>
+                    <h2>Excessive Back-up Measures</h2>
                     <p>
                         With their reputations on the line, businesses that require servers cannot afford to have their systems down for even a second. As a precautionary measure for a power failure, many data centers have generators, which emit diesel exhaust and violates many clear air regulations. Furthermore, large data centers sometimes contain large flywheels and/or lead-acid batteries to power the computers in the case of a grid failure.
+                    According to Emerson Network Power, data centers average 2.5 complete outages per year with an average time being 134 minutes.  With 500,000+ data centers, these outages  equate to 2.8 million of hours of downtime and $425 billion of dollars lost each year.
                     </p>
 
-                    <h3>Temperature Regulation</h3>
+                    <h2>Temperature Regulation</h2>
                     <p>
                         The temperature in the data centers must remain between 18-27 degrees Celsius (64-81 degrees Celsius) and a maximum humidity of 60%.  The electrical power used by the equipment heats the air, and unless there is a functional cooling system, the hot ambient temperature can cause an electronic equipment malfunction.  If there is too much humidity, then the water can start to condense on internal components; on the other hand, if there is too little humidity, then there can be static electricity discharge problems that can also damage components.  With the equipment having such a high sensitivity to their location and temperature, the data centers must spend more energy and electricity on temperature regulation and cooling systems.
                     </p>
@@ -242,8 +307,13 @@
 
                     </p>
                     </p>
-
                 </div>
+
+
+                 <div class="col-md-2">
+                        <img src="images/therm.png" width="100%">
+                    </div>
+                    </div>
             </div>
         </section>
         <section id="modular-section" class = "test">
@@ -284,6 +354,26 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section>
+            <div class = "row pad">
+                <div class= "container">
+    <h2>How Quasar works</h2>
+    Currently programmers reserve server space and resources. However, programmers tend to overestimate the number of computer servers or computing cores that their software will need by as much as 5x-10x.  As a result, even virtualized machines can work at as little as 20 percent their actual capacity. <br/>
+Quasar improves on the efficiency of how servers are utilized.  By taking advantage of software similar to Netflix's and Amazon's recommendation engines (Collaborative Filtering), server allocation is distributed based on what will be ideal for the application being run.<br/>
+Quasar asks programmers to state the type of parameters that a program might run, like the frequency in milliseconds that data should move.  Given these parameters, Quasar examines the program involved and matches it to the optimal performance of similar programs operating under similar workloads.<br/>
+Quasar recommends the minimum number of servers to use for each application and states which applications can run best together.<br/>
+The result is that entire data centers have been made to run at approximately 70-75 percent capacity.<br/>
+Professor Kozyrakis has achieved utilization rates in this 70 percent range in a 200-server test bed. Currently, he is working to scale to data centers with tens of thousands of servers with applications that span across multiple data centers.<br/>
+
+</p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <embed src="http://www.industry-academia.org/download/2013-Stanford-Christos-Kozyrakis-Stanford.pdf" width="100%" height="375">
         </section>
         <nav class="navbar navbar-default navbar-static-bottom" role="navigation">
             <div class="container">
