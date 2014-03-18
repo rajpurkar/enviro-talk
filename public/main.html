@@ -130,6 +130,7 @@
 				text-align: center;
 				padding-top: 70px;
 				padding-bottom: 70px;
+				background: #eee;
 			}
 			#chris-highlight {
 				margin-top: 0px;
@@ -142,6 +143,63 @@
 				background-size: cover;
 				background-repeat: no-repeat;
 			}
+
+			#quasar-section {
+				margin-top: 0px;
+				padding-top: 100px;
+				padding-bottom: 100px;
+				position: relative;
+				overflow: hidden;
+				color: white;
+				background: #111;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			#wb-section {
+				margin-top: 0px;
+				padding-top: 120px;
+				padding-bottom: 120px;
+				position: relative;
+				overflow: hidden;
+				color: black;
+				background: #fff;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			#blade-section {
+				border-top: 1px solid #ddd;
+				margin-top: 0px;
+				padding-top: 100px;
+				padding-bottom: 100px;
+				position: relative;
+				overflow: hidden;
+				color: black;
+				background: #fff;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			#implication-section {
+				border-top: 1px solid #ddd;
+				margin-top: 0px;
+				padding-top: 100px;
+				padding-bottom: 100px;
+				position: relative;
+				overflow: hidden;
+				color: black;
+				background: #fff;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			#soft-section {
+				text-align: center;
+				padding-top: 70px;
+				padding-bottom: 70px;
+				background: #eee;
+			}
         </style>
     </head>
     <body>
@@ -151,7 +209,7 @@
                     <div class = "col-md-4">
                         <h1><strong>Computers</strong> and the Environment</h1>
                         <p>
-                            Information Overload, and its impact on us.
+                            The growth of the internet, and its impact on the environment
                         </p>
                         <div id = "header-info"></div>
                     </div>
@@ -170,7 +228,7 @@
                     <div class="col-md-8" id = "intro">
                         <h1> Introduction </h1>
                         <p>
-                            With the internet approaching the status of a fundamental human right, it is expected to amass a user base of the entirety of the human population. With preparations to provide such access come the challenges of handling the growing population of internet users. These challenges include the growing demand for storing user data, and serving users data, problems heightened by the growing online footprint of existing users, and increased demand for cloud computing solutions. In our project, we explore the ramifications of these upcoming digital challenges in our physical environment, examine the costs of handling such challenges with traditional approaches, and propose feasible solutions designed to gracefully tackle this problem.
+                            With the internet approaching the status of a fundamental human right, it is expected to amass a user base of the entirety of the human population. With preparations to provide such access come the challenges of handling the growing population of internet users. These challenges include the growing demand for storing user data, and serving users data-  problems heightened by the growing online footprint of existing users, and increased demand for cloud computing solutions. In our project, we explore the ramifications of these upcoming digital challenges in our physical environment, examine the costs of handling such challenges with traditional approaches, and propose feasible solutions designed to gracefully tackle this problem.
 
                         </p>
                     </div>
@@ -235,7 +293,6 @@
                     </div>
                     <div class="col-md-7">
                         <h3> What are the repercussions of connecting the world? </h3>
-
                         <p>
                             It has been predicted that in 20 years, we can expect to have more than thrice the current user base on the internet.
                             With the increase in importance of cloud computing, we can expect each user
@@ -291,7 +348,7 @@
                         <h1> Traditional Data Centers, and their Deficiencies </h1>
 
                         <p>
-                            The current approach to data storage involves the traditional site-constructed data centers.  Whether is be a single room or a floor of a whole building, the data centers are home to many servers that process data.
+                            The current approach to data storage involves the traditional site-constructed data centers.  Whether it be a single room or a floor of a whole building, the data centers are home to many servers that process data.
 
                         </p>
                         The standard building components include:
@@ -330,7 +387,7 @@
 
                         <h2>Temperature Regulation</h2>
                         <p>
-                            The temperature in the data centers must remain between 18-27 degrees Celsius (64-81 degrees Celsius) and a maximum humidity of 60%.  The electrical power used by the equipment heats the air, and unless there is a functional cooling system, the hot ambient temperature can cause an electronic equipment malfunction.  If there is too much humidity, then the water can start to condense on internal components; on the other hand, if there is too little humidity, then there can be static electricity discharge problems that can also damage components.  With the equipment having such a high sensitivity to their location and temperature, the data centers must spend more energy and electricity on temperature regulation and cooling systems.
+                            The temperature in the data centers must remain between 18-27 degrees Celsius (64-81 degrees Fahrenheit) and a maximum humidity of 60%.  The electrical power used by the equipment heats the air, and unless there is a functional cooling system, the hot ambient temperature can cause an electronic equipment malfunction.  If there is too much humidity, then the water can start to condense on internal components; on the other hand, if there is too little humidity, then there can be static electricity discharge problems that can also damage components.  With the equipment having such a high sensitivity to their location and temperature, the data centers must spend more energy and electricity on temperature regulation and cooling systems.
                         </p>
 
                         <p>
@@ -375,6 +432,121 @@
                 </div>
             </div>
         </section>
+        <section id="wb-section">
+
+            <div class = "container">
+                <div class = "col-md-8">
+                    <div class = "row">
+                        <h1>Hardware solutions</h1>
+                    </div>
+                    <div class = "row">
+                        <h2>Water-Based Data Center</h2>
+                        <p>
+                            In addition to the cost of the property being significantly less out at sea than on land, the “water-based data center” is also a more environmentally-friendly solution than the traditional data center.  The water-based data centers are located 5-7 miles offshore in water 50-70 meters deep and consist of a computer data center, a wave-based electrical generator, and sea-water cooling units.  The ocean itself is a temperature regulator, so the data center can spend less energy in regulating its internal temperature and humidity.  Also, being situated on floating platforms and support system allows this type of data center to have easy access to ocean water for cooling and wave-generated energy.
+                        </p>
+                        <p>
+                            The wave-generated energy is usually generated using Pelamis systems (http://www.pelamiswave.com/).  These machines consist of 5 tube sections that are connected by joints that move in the vertical directions.  Half-submerged in the water, the Pelamis system faces into the waves so that as the machine passes over the water and the sections bend in the water; the resulting movement is converted into electricity by the hydraulic power systems inside each of the joints of the Pelamis machine.  These power systems consist of hydraulic cylinders that pump high pressure oil through hydraulic motors, which drive electrical generators that have a 70% conversion efficiency.  Subsea cables can then transfer the electricity to the data center.
+
+                        </p>
+                    </div>
+                    <div class = "row">
+
+                        <h3> Advantages:</h3>
+                        <ul>
+                            <li>
+                                Energy collected from water is free, non-polluting, and abundant
+                            </li>
+                            <li>
+                                Temperature-regulated environment
+                            </li>
+                            <li>
+                                Minimal offshore work
+                            </li>
+                            <li>
+                                Oceanic space is less expensive than land in city
+                            </li>
+                            <li>
+                                Since the majority of the population lives near oceans, this solution brings computing closer to more people
+                            </li>
+                        </ul>
+                        <h3> Disadvantages</h3>
+                        <ul>
+                            <li>
+                                Visually unappealing
+                            </li>
+                            <li>
+                                Damage from salty waters
+                            </li>
+                            <li>
+                                More obstacles for sea traffic
+                            </li>
+                            <li>
+                                Possible disruptions to sea life
+                            </li>
+                            <li>
+                                Provides approximately 750kW whereas the need is billions of watts
+                            </li>
+                            <li>
+                                Already patented by Google in 2007
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class= "col-md-4">
+                    <img src = "images/wbdc.png" width="100%">
+                    <img src = "images/moddc.jpg" width="100%">
+                    <p>Source: Wikipedia - Water-Based Data Center</p>
+                </div>
+            </div>
+        </section>
+        <section id = "blade-section">
+            <div class=  "container">
+                <div class = "row">
+                    <img src = "http://www.hds.com/assets/images/cb500-original.jpg" width="100%">
+                    <p>Source: Hitachi</p>
+                </div>
+                <div class="row">
+                    <div class = "col-md-6">
+
+                        <h3> Advantages:</h3>
+                        <ul>
+
+                            <li>
+                                Uses less space
+                            </li>
+                            <li>
+                                Single power supply per enclosure allows for less power consumption
+                            </li>
+                            <li>
+                                Parts are easily replaceable
+                            </li>
+                        </ul>
+
+                        <h3> Disadvantages</h3>
+                        <ul>
+                            <li>
+                                More expensive
+                            </li>
+                            <li>
+                                Single power supply can be a single point of failure that renders the whole system unoperationa
+                            </li>
+                            <li>
+                                Not cost-effective for small to medium-sized operations
+                            </li>
+                        </ul>
+                    </div>
+                    <div class = "col-md-6">
+                        <h2>Blade Server</h2>
+                        <p>
+                            A server with components removed to minimize the physical space and energy it uses, the blade server is an improvement from the standard servers today.  They contain only the core processing units and are usually specialized so each blade handles a single task.  They use half of the space compared to standard servers (can fit 128 blade servers in a space that can hold only 42 standard servers) and fit into an enclosure with other blades so that they have self-contained power, cooling, management, and connections systems.  As a result of their configuration, blade servers use 20% less power.  They have the benefit of less rack space and up to 85% less cabling, and with its shared cooling and power systems, it means it does not generate as much heat as traditional servers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="soft-section">
+            <h1>Software Solutions</h1>
+        </section>
         <section>
             <div class = "row" id = "ms-highlight" >
                 <div class = "container">
@@ -390,10 +562,20 @@
                     </div>
                 </div>
             </div>
-            <div class = "row pad">
+        </section>
+        <section id = "quasar-section">
+            <div class = "row">
                 <div class= "container">
+
                     <h1>Introducing <strong>Quasar</strong></h1>
-                    <h2>How Quasar works</h2>
+
+                    <h1>Traditional Approach </h1>
+                    <h4> Programmers <strong>reserve server space</strong> and resources. Problem of <strong>overestimating</strong> the number of computer servers or computing cores that their software will need by as much as 5x-10x. Thus, machines work at as little as 20% their actual capacity. </h4>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "container">
+                    <h1>Quasar Style </h1>
                     <ol>
                         <li>
                             Currently programmers reserve server space and resources. However, programmers tend to overestimate the number of computer servers or computing cores that their software will need by as much as 5x-10x.  As a result, even virtualized machines can work at as little as 20 percent their actual capacity. </h4>
@@ -411,75 +593,28 @@
                 </div>
             </div>
         </section>
-         <section>
-            <embed src="http://www.industry-academia.org/download/2013-Stanford-Christos-Kozyrakis-Stanford.pdf" width="100%" height="375">
-        </section>
-        <section id="modular-section" class = "test">
 
+        <section id = "implication-section">
             <div class = "container">
-
-                <div class = "row pad">
-                    <div class = "col-md-6">
-                        <h2>Water-Based Data Center</h2>
+                <div class = "row">
+                    <div class=  "col-md-7">
+                        <h2>What’s preventing us from using these solutions? (a.k.a. Implications)</h2>
                         <p>
-                            In addition to the cost of the property being significantly less out at sea than on land, the “water-based data center” is also a more environmentally-friendly solution than the traditional data center.  The water-based data centers are located 5-7 miles offshore in water 50-70 meters deep and consist of a computer data center, a wave-based electrical generator, and sea-water cooling units.  The ocean itself is a temperature regulator, so the data center can spend less energy in regulating its internal temperature and humidity.  Also, being situated on floating platforms and support system allows this type of data center to have easy access to ocean water for cooling and wave-generated energy.
+
+                            Though each of the hardware and software solutions have their benefits, whether it be creating more eco-friendly data centers or increasing server capacity, we must still analyze the implications of each of these possible solutions.
+
+                            Water-based data centers, being based out at sea, raise a unique set of questions relative to the traditional data centers on land.  How will water-based data centers impact the surrounding sea life?  Will it affect the ships and other water activities?  Some people would say that having a floating data center could be an eyesore and could also be more susceptible to storms and natural disasters. Others are against these data centers because they require extra maintenance for the damages resulting from the salty waters. In addition, in 2007, Google filed a patent for “water-based data centers”, which could be a daunting obstacle for many other companies and dissuade its extensive use.
+
+                            Blade servers, though they are more space and energy-efficient than the traditional rack servers, there is still the problem that they are more expensive.  Unless the companies invest in large quantities of blade servers so that they can be slotted into large compartments and share a single power and temperature regulating system, blade servers can be more expensive than other servers.  As companies wish to minimize utility costs as much as possible, they often overlook blade servers because of their financial constraints.
                         </p>
-                        <p>
-                            The wave-generated energy is usually generated using Pelamis systems (http://www.pelamiswave.com/).  These machines consist of 5 tube sections that are connected by joints that move in the vertical directions.  Half-submerged in the water, the Pelamis system faces into the waves so that as the machine passes over the water and the sections bend in the water; the resulting movement is converted into electricity by the hydraulic power systems inside each of the joints of the Pelamis machine.  These power systems consist of hydraulic cylinders that pump high pressure oil through hydraulic motors, which drive electrical generators that have a 70% conversion efficiency.  Subsea cables can then transfer the electricity to the data center.
-
-                        </p>
                     </div>
-                    <div class = "col-md-6">
-
-                        <h3>   Advantages:</h3>
-                        <ul>
-                           <li> Energy collected from water is free, non-polluting, and abundant</li>
-                           <li>Temperature-regulated environment</li>
-                           <li> Minimal offshore work</li>
-                            <li>Oceanic space is less expensive than land in city</li>
-                            <li>Since the majority of the population lives near oceans, this solution brings computing closer to more people</li>
-                        </ul>
-                           <h3> Disadvantages</h3>
-                           <ul>
-                            <li>Visually unappealing</li>
-                            <li>Damage from salty waters</li>
-                            <li>More obstacles for sea traffic</li>
-                            <li>Possible disruptions to sea life</li>
-                            <li>Provides approximately 750kW whereas the need is billions of watts</li>
-                            <li>Already patented by Google in 2007</li>
-                            </ul>
-                    </div>
-                </div>
-                <div class="row pad">
-                    <div class = "col-md-6">
-
-                           <h3> Advantages:</h3>
-                               <ul>
-
-                          <li> Uses less space</li>
-                          <li> Single power supply per enclosure allows for less power consumption</li>
-                          <li>  Parts are easily replaceable</li>
-                            </ul>
-
-                          <h3>  Disadvantages</h3>
-                          <ul>
-                              <li>
-                                More expensive</li>
-                          <li> Single power supply can be a single point of failure that renders the whole system unoperationa</li>
-                        <li>     Not cost-effective for small to medium-sized operations</li>
-</ul>
-                    </div>
-                    <div class = "col-md-6">
-                        <h2>Blade Server</h2>
-<p>A server with components removed to minimize the physical space and energy it uses, the blade server is an improvement from the standard servers today.  They contain only the core processing units and are usually specialized so each blade handles a single task.  They use half of the space compared to standard servers (can fit 128 blade servers in a space that can hold only 42 standard servers) and fit into an enclosure with other blades so that they have self-contained power, cooling, management, and connections systems.  As a result of their configuration, blade servers use 20% less power.  They have the benefit of less rack space and up to 85% less cabling, and with its shared cooling and power systems, it means it does not generate as much heat as traditional servers. </p>
+                    <div class=  "col-md-5">
+                       <img src = "images/patent.png" width="100%"/>
+                       <p>Source: Google Patents</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id = "wheretogo-section">
-
-        </section>
-
 
         <nav class="navbar navbar-default navbar-static-bottom" role="navigation">
             <div class="container">
